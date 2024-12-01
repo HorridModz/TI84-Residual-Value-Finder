@@ -1,0 +1,14 @@
+Input "ACTUAL:",X
+Input "PREDICTED:",Y
+Disp X-Y
+If X-Y>0
+Then
+	Disp "UNDER"
+Else
+	If X-Y<0
+	Then
+		Disp "OVER"
+	End
+End
+
+
